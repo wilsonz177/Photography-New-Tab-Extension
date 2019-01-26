@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+	<title> New Tab</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            /*margin: 0 auto;*/
+            /*margin-left: auto;
+  			margin-right: auto;*/
+            height: 90%;
+        }
+        .center-fit {
+            max-width: 100vw;
+            max-height: 85vh;
+            /*padding-top: 2vh;*/
+            /*padding-bottom: 3vh;*/
+            /*margin: auto;*/
+            margin-left: auto;
+  			margin-right: auto;
+  			margin-bottom : 2vh;
+  			margin-top: 2vh;
+  			
+        }
+        .textbox {
+        	display: block;
+        	margin: auto;
+        	margin-bottom: 5px;
+        	margin-top: 5px;
+        }
+        .animated {
+            /*background-image: url(/css/images/logo.png);*/
+            background-repeat: no-repeat;
+            /*background-position: left top;*/
+            /*padding-top:95px;*/
+            /*margin-bottom:60px;*/
+            -webkit-animation-duration: 2.7s;
+            animation-duration: 2.7s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         .fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+         }
+    </style>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div class ="animated fadeIn">
+<div class="imgbox">
+</div>
+</div>
+<div>
+	<!-- <h2>Nat Geo</h2> -->
+</div>
+<!-- <script src="ext.js"></script> -->
+<script src="test.js"></script>
+</body>
+</html>
